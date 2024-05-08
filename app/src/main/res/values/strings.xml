@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">vk_list_test</string>
+    <string name="product_price">%d $</string>
+    <string name="unexpected_error">Unexpected error occured</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance" parent="android:TextAppearance" />
+
+    <style name="Theme.Item.Name" parent="TextAppearance">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/normal_text_spacing</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Price" parent="TextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Item.Price" parent="TextAppearance.Price">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/normal_text_spacing</item>
+    </style>
+
+    <style name="TextAppearance.Description" parent="TextAppearance">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/small_text_spacing</item>
+        <item name="android:textColor">@color/silver_chalice</item>
+    </style>
+
+    <style name="Theme.Item.Description" parent="TextAppearance.Description">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/normal_text_spacing</item>
+    </style>
+    
+    <style name="ImageViewShape" >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_size</item>
+    </style>
+
+    <style name="Theme.Header" parent="TextAppearance" >
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Body" parent="TextAppearance">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+    </style>
+</resources>
