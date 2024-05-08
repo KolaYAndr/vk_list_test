@@ -47,9 +47,9 @@ class ProductListFragment : Fragment() {
 
     private fun initAdapter() {
         adapter = ProductAdapter()
-        adapter.setOnItemClickListener {
-            findNavController().navigate("${NavigationRoutes.productDetail}/${it.id}")
-        }
+//        adapter.setOnItemClickListener {
+//            findNavController().navigate("${NavigationRoutes.productDetail}/${it.id}")
+//        }
         binding.productRecyclerView.adapter = adapter
         binding.productRecyclerView.addItemDecoration(ProductItemDecoration(16))
 
